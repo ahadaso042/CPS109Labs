@@ -1,11 +1,3 @@
-# Automated tester for the problems in the collection
-# "109 Python Problems for CCPS 109" by Ilkka Kokkarinen.
-# Ilkka Kokkarinen, ilkka.kokkarinen@gmail.com
-
-# Requires Python 3.7+ for the guarantee to iterate collections
-# in the insertion order, needed to run some test case generators
-# the exact same way in every platform and future Python version.
-
 from hashlib import sha256
 from time import time
 from itertools import islice, permutations, zip_longest, cycle, product, count
